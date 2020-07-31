@@ -1,2 +1,2 @@
 # Sudoku
-Sudoku game in Python
+Igra sudoku v pythonu pri predmetu Uvod v programiranje.
