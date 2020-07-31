@@ -18,13 +18,13 @@ def izpis_konca(igra):
 def izpis_neenako():
     return "\n\n ##### Vpisati moraš tri številke! #####"
 def izpis_napacni_znak():
-    return "\n\n ##### Ugib naj vsebuje samo številke! #####"
+    return "\n\n ##### Ugib naj vsebuje samo številke med 1 in 9! #####"
 
 def izpis_zasedeno():
     return "\n\n ##### Na to mesto ne moreš vstaviti številke. #####"
 
 def izpis_napacni_ugib():
-    return "\n\n ##### Še malo razmisli. #####"
+    return "\n\n ##### Ta številka na to mesto ne  more priti. #####"
 
 def zahtevaj_vnos():
     return input("Mesto in številka:  ")
@@ -48,7 +48,7 @@ def pozeni_vmesnik():
             print(izpis_napacni_ugib())
         elif rezultat_ugiba == model.KONEC:
             print(izpis_konca(igra))
-            ponovni_zagon = input("Za ponovni zagon vpišite R.").strip()
+            ponovni_zagon = input("Za ponovni zagon vpišite R.").strip().upper()
             if ponovni_zagon == "R":
                 igra = model.nova_igra()
             else:
