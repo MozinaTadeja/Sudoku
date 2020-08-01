@@ -147,6 +147,8 @@ class Igra:
                 return NAPACEN_UGIB 
             if self.konec():
                 return KONEC
+            else:
+                return NADALJUJ
 
 
 with open("Plosce.txt", "r", encoding="utf-8") as datoteka_s_ploscami:
