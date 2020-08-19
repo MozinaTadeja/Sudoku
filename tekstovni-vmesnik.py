@@ -27,7 +27,7 @@ def izpis_napacni_ugib():
     return "\n\n ##### Ta številka na to mesto ne  more priti. #####"
 
 def zahtevaj_vnos():
-    return input("Mesto in številka:  ")
+    return input("Vrstica, stolpec, številka:  ")
 
 def pozeni_vmesnik():
 
