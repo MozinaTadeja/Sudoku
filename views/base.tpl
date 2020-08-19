@@ -3,14 +3,15 @@
 
   <head>
     <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
-    <center><h1>Sudoku</h1></center>
+    <h1 style="text-align:center">Sudoku</h1>
   </head>
+
   <br>
-<center><body style="background-color:aliceblue;">
+<body style="background-color:aliceblue;">
   
-  <div class="container">
+  <div class="container" style="text-align:center; align-items: center">
     {{!base}}
   </div>
-</body></center>
+</body>
 
 </html>

@@ -1,7 +1,7 @@
 %import model
 %rebase("base.tpl", title="Sudoku")
 
-    <table style="background-color:ghostwhite; border:1px solid;">
+    <table style="background-color:ghostwhite; border:1px solid; margin: auto;">
         %for j in range(11):
         <tr>
             %for i in range(21):
